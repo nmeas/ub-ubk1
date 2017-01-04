@@ -1,0 +1,7 @@
+extra-cmake-modules
+kwallet-dev
+libgcrypt-dev
+libpwquality-dev
+libsecret-dev
+pkgconfig
+qt5-dev

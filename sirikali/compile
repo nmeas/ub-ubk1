@@ -1,0 +1,10 @@
+#!/bin/sh -eux
+
+ub_compile \
+	-DCMAKE_PREFIX_PATH=/usr/lib/qt5 \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DQT5=true \
+	-DNOSECRETSUPPORT=false \
+	-DINTERNAL_LXQT_WALLET=false \
+	-DNOKDESUPPORT=false \
+	-DCMAKE_BUILD_TYPE=RELEASE
