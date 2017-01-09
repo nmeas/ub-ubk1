@@ -1,0 +1,11 @@
+dbus-glib-dev
+dbus-python-dev
+gettext-tools
+pkgconfig
+pygobject2-dev
+pygtk-dev
+python-babel
+python-dev
+python-distutils-extra
+python-pip
+python-setuptools

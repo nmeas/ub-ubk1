@@ -1,0 +1,11 @@
+#!/bin/sh -eux
+
+ub_compile \
+ 	  configure \
+      --no-install-init \
+      --resume=/usr/share/wicd/scripts/ \
+      --suspend=/usr/share/wicd/scripts/ \
+      --verbose \
+      --lib=/usr/lib \
+      --sbin=/usr/bin \
+      --systemd=/usr/lib/systemd/system
