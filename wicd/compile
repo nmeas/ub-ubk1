@@ -6,6 +6,6 @@ python setup.py configure \
       --suspend=/usr/share/wicd/scripts/ \
       --verbose \
       --lib=/usr/lib \
-      --sbin=/usr/bin \
+      --sbin=/usr/sbin \
       --systemd=/usr/lib/systemd/system
 python setup.py build
