@@ -1,5 +1,6 @@
 akonadi-dev
 akonadi-mime-dev
+boost-dev
 extra-cmake-modules
 kcalcore-dev
 kcmutils-dev
@@ -14,4 +15,5 @@ kmime-dev
 krunner-dev
 libical-dev
 qt5-dev
+qt5-test
 xapian-dev

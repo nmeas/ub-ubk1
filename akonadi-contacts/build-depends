@@ -1,5 +1,6 @@
 akonadi-dev
 akonadi-mime-dev
+boost-dev
 extra-cmake-modules
 grantlee-dev
 kcodecs-dev
