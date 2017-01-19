@@ -1,0 +1,1 @@
+urllist https://mega.nz/linux/MEGAsync/Debian_8.0/ | splitver '^megasync_([0-9.]+).orig.tar.gz$'  

@@ -1,0 +1,10 @@
+c-ares-dev
+cryptopp-dev
+curl-dev
+libsodium-dev
+libuv-dev
+lsb-release
+openssl-dev
+qt5-dev
+sqlite-dev
+zlib-dev

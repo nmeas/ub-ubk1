@@ -1,1 +1,2 @@
-u2dsubdir http://download.kde.org/stable/frameworks/
+dir=$(urllist http://download.kde.org/stable/applications/ | grep -E '^([0-9])' | sort -V | tail -n 1)
+urllist http://download.kde.org/stable/applications/$dir/src/ | splitver '^kdelibs4support-([0-9.]+).tar.xz$' | sort -V | tail -n 1

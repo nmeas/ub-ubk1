@@ -1,0 +1,26 @@
+#!/bin/sh -eux
+
+export QT_SELECT=5
+cd ${UB_COMPILEDIR}/MEGASync/mega
+	./clean.sh
+    	./autogen.sh
+		./configure \
+    		--disable-silent-rules \
+    		--disable-curl-checks \
+    		--disable-megaapi \
+    		--with-cryptopp \
+    		--with-sodium \
+    		--with-zlib \
+    		--with-sqlite \
+    		--with-cares \
+    		--with-curl \
+    		--without-freeimage \
+    		--without-readline \
+    		--without-termcap \
+    		--disable-posix-threads \
+    		--disable-examples \
+    		--prefix=/usr
+    cd "../.."
+    qmake CONFIG+="release" MEGA.pro
+    lrelease MEGASync/MEGASync.pro
+    make

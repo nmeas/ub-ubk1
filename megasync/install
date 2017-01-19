@@ -1,0 +1,7 @@
+#!/bin/sh -eux
+
+make INSTALL_ROOT="${UB_INSTALLDIR}" install
+    install -Dm 644 debian.copyright ${UB_INSTALLDIR}/usr/share/licenses/megasync-qt5/license
+
+    cd "MEGASync"
+    install -Dm 755 megasync ${UB_INSTALLDIR}/usr/bin/megasync

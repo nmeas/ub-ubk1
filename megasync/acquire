@@ -1,0 +1,4 @@
+#!/usr/bin/env dl
+
+megasync_${UB_VERSION}.orig.tar.gz megasync-${UB_VERSION}/
+	https://mega.nz/linux/MEGAsync/Debian_8.0/

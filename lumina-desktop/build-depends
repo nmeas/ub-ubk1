@@ -1,0 +1,7 @@
+libx11-dev
+libxcb-dev
+libxi-dev
+qt5-dev
+xcb-util-dev
+xcb-util-image-dev
+xcb-util-wm-dev

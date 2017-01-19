@@ -8,6 +8,6 @@ kjobwidgets-dev
 kparts-dev
 ktexteditor-dev
 kwidgetsaddons-dev
-libkomparediff2
+libkomparediff2-dev
 qt5-dev
 qt5-test

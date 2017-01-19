@@ -1,0 +1,7 @@
+#!/bin/sh -eux
+
+qmake \
+	QT5LIBDIR=/usr/lib/qt5/ \
+	QMAKE_CFLAGS_ISYSTEM= PREFIX="/usr"
+
+ub_compile

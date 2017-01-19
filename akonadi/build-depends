@@ -17,9 +17,6 @@ kwidgetsaddons-dev
 kwindowsystem-dev
 kxmlgui-dev
 libxml2-dev
-mysql-dev
-mysql-server
-postgresql-dev
 qt5-designer-dev
 qt5-dev
 qt5-plugin-mysql
