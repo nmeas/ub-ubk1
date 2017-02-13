@@ -1,0 +1,11 @@
+acl-dev
+boost-dev
+btrfs-progs-dev
+dbus-dev
+docbook-xsl
+e2fsprogs-dev
+libxml2-dev
+libxslt-dev
+lvm-dev
+pam-dev
+util-linux-dev

@@ -1,0 +1,4 @@
+#!/bin/sh -eux
+
+ub_install
+install -Dm644 data/sysconfig.snapper "$UB_INSTALLDIR"/etc/conf.d/snapper
